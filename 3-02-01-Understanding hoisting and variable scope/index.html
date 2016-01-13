@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Understanding hoisting and variable scope</title>
+    <h1>Understanding hoisting and variable scope</h1>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <ol>
+        <li>Variable scope and Hoisting</li>
+        <li><b>scope</b> - Life ans death of the variable</li>
+        <li><b>Block Scope</b> - varaiables live with {}</li>
+        <li><b>Function Scope</b> - variables live in functions</li>
+        <li>The <b>scope chain</b></li>
+        <li>Dangerous <b>global</b> variables</li>
+        <li>without <b>var</b> keyword act as global (This one is not preferable affect all function wherever you used the variable)</li>
+    </ol>
+    <script type="text/javascript">
+	    dog();
+    console.group("Out of the scope we called dogName had error()")
+    console.log(withoutVar);
+    console.log(dogName);
+    console.groupEnd();
+    </script>
+</body>
+
+</html>
